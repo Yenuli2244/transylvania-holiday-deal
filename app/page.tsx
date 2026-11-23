@@ -70,33 +70,16 @@ export default function Home() {
     "Bucharest night skyline";
 
   const glimpseImage =
-    "/images/e3186e93f233efae7f920b93e6f791d1.jpg" ||
-    overviewImages[0]?.path ||
-    rawData.glimpse?.image ||
-    heroImages[0]?.path;
+  "/images/e3186e93f233efae7f920b93e6f791d1.jpg";
 
-  const seasonsImage = "/images/b2b7d31002926a362ce3ca0f11cd0e3c.jpg";
+const seasonsImage = "/images/b2b7d31002926a362ce3ca0f11cd0e3c.jpg";
 
-  const discoverMoreImage =
-    "/images/243a3612-c6c2-4262-a303-9ed5c40b24dc.jpg";
+const discoverMoreImage = "/images/243a3612-c6c2-4262-a303-9ed5c40b24dc.jpg";
 
-  const cultureImage = "/images/Bucharest.jpg";
+const cultureImage = "/images/Bucharest.jpg";
 
-  const excursionBannerImage =
-    "/images/default-excursions.webp" ||
-    rawData.excursionsBanner?.path ||
-    rawData.excursionsBanner?.url ||
-    (typeof rawData.excursionsBanner === "string"
-      ? rawData.excursionsBanner
-      : "") ||
-    rawData.excursionsImage?.path ||
-    rawData.excursionsImage?.url ||
-    (typeof rawData.excursionsImage === "string"
-      ? rawData.excursionsImage
-      : "") ||
-    overviewImages[0]?.path ||
-    heroImages[0]?.path;
-
+const excursionBannerImage =
+  "/images/default-excursions.webp";
   const paymentPlanImage = "/images/lcv-payment.webp";
 
   // Hero slider timer
